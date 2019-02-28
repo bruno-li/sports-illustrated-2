@@ -44,9 +44,9 @@ body{
         &__text{
           font-size: 15px;
           font-weight: 600;
+          letter-spacing: 1.5px;
           text-transform: uppercase;
           text-decoration: none;
-          letter-spacing: 1.5px;
           margin: 0 5px;
           color: #686c73;
         }
@@ -60,8 +60,8 @@ body{
           line-height: 48px;
           letter-spacing: 1px;
           text-align: center;
-          color: #232526;
           margin: 1rem;
+          color: #232526;
 
           // MEDIA QUERIES
           @include respond(tab-port){
@@ -97,11 +97,10 @@ body{
 
     &__question{
       margin-top: 1rem;
-      // text-align: center;
       &__list{
-       list-style: none;
        font-size: 18px;
        line-height: 16px;
+       list-style: none;
        text-transform: uppercase;
        color: #686c73;
        
@@ -128,8 +127,8 @@ body{
       // MEDIA QUERIES
         &__name{
           font-weight: 600;
-          color: #FE411F;
           text-decoration: none;
+          color: #FE411F;
         }
     }
 }
@@ -148,24 +147,20 @@ body{
         font-size: 18px;
       }
     }
-
     &__list{
       font-size: 20px;
       line-height: 24px;
       letter-spacing: 1px;
-      margin-left: 1rem;
-      margin-top: 1rem;
-           // MEDIA QUERIES
-           @include respond(small-phone){
-            font-size: 18px;
-            margin-left: 1.5rem;
-          }
-
+      margin: 1rem 0 0 1rem;
+       // MEDIA QUERIES
+       @include respond(small-phone){
+         font-size: 18px;
+         margin-left: 1.5rem;
+        }
       &__items{
         margin-top: 10px;
       }
     }
-
     &__figure{
       margin: 1rem;
       &__img{
