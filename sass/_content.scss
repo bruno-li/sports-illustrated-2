@@ -13,7 +13,6 @@ body{
   @include respond(small-phone){
     padding: 8px;
   }
-
     // HEADER SECTION
 .title {
     &__link-list{
@@ -129,9 +128,7 @@ body{
           text-decoration: none;
         }
     }
-   }
-
-
+}
 //    MAIN CONTENT
   .main-content{
     margin-top: 1rem;
